@@ -17,7 +17,16 @@ const Navbar = () => {
   return (
    <nav className={`navbar navbar-expand-lg shadow-sm fixed-top transition-navbar ${scrolled ? 'navbar-scrolled' : 'bg-gray'}`}>
   <div className="container">
-    <Link href="/" className="navbar-brand fw-bold">Shakil.Dev</Link>
+    <Link href="/" className="navbar-brand fw-bold">
+    <div className="">
+          <img
+            src="/images/logo.png"
+            alt="Profile"
+            className="logo"
+            style={{ maxWidth: '50px' }}
+          />
+        </div>
+    </Link>
 
     <button
       className="navbar-toggler"
@@ -33,6 +42,9 @@ const Navbar = () => {
 
     <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul className="navbar-nav d-flex gap-3">
+        <li className="nav-item">
+          <Link href="/" className="nav-link">Home</Link>
+        </li>
         <li className="nav-item">
           <Link href="/nt/about" className="nav-link">About</Link>
         </li>

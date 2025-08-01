@@ -126,3 +126,12 @@ h6{
   border: 3px solid #9EA3AE; 
   box-shadow: 0 2px 8px rgba(0,0,0,0.15); 
 }
+
+.logo {
+  width: 30px;
+  height: 25px;
+  object-fit: cover;
+  border-radius: 50%; 
+  border: 1px solid #9EA3AE; 
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15); 
+}
