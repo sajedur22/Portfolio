@@ -17,7 +17,7 @@ const about = () => {
         <div className="col-md-8">
           <p>
             Hello! I'm <strong>Sajedur Rahman Shakil</strong>, a passionate full-stack developer with expertise in building responsive, user-friendly web applications.
-            I enjoy solving real-world problems using modern web technologies like <strong>Next.js</strong>, <strong>React.js</strong>,<strong>Node.js</strong>, <strong>Express.js </strong>,<strong>Express.js,</strong><strong>Javascript</strong>,<strong>MongoDB</strong>.
+            I enjoy solving real-world problems using modern web technologies like <strong>JavaScript</strong>, <strong>React.js</strong>,<strong>Next.js</strong><strong>,Node.js</strong>,<strong>Express.js </strong>,<strong>MongoDB</strong>.
           </p>
           <p>
             With a strong foundation in JavaScript and a keen eye for clean design, I strive to create elegant and maintainable code. Whether working solo or in a team,
