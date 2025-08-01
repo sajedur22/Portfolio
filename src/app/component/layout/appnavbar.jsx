@@ -19,12 +19,7 @@ const Navbar = () => {
   <div className="container">
     <Link href="/" className="navbar-brand fw-bold">
     <div className="">
-          <img
-            src="/images/logo.png"
-            alt="Profile"
-            className="logo"
-            style={{ maxWidth: '50px' }}
-          />
+        <p className='logo'>🤖</p>
         </div>
     </Link>
 
