@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+:root {
+    /* Main Color */
+    --themeColor: #21bf73;
+    --themeColorDark: #39B27B;
+    --themeLightColor: #56d598;
+    --secondaryColor: #B0EACD;
+    --themeDarkColor: #2E374F;
+    --themeWhiteColor: #ffffff;
+
+    /* Greyscale Color */
+    --lightColor: #9EA3AE;
+    --lightDeepColor-1: #9EA3AE;
+    --lightDeepColor-2: #FAF8F6;
+    --lightDeepColor-3: #D3D5DA;
+    --lightDeepColor-4: #9EA3AE;
+    --darkColor: #6C727F;
+    --darkDeepColor-1: #4D5461;
+    --darkDeepColor-2: #394150;
+    --darkDeepColor-3: #212936;
+    --darkDeepColor-4: #0B0A0F;
+    --snuffcolor:#ebe3ef;
+
+    /* Typography */
+    --headline-1: 52px;
+    --headline-2: 40px;
+    --headline-3: 32px;
+    --headline-4: 24px;
+    --bodyXLarge: 20px;
+    --bodyLarge: 18px;
+    --bodyMedium: 16px;
+    --bodySmal: 14px;
+    --bodyXSmal: 10px;
+
+}
+
+
+
+html{
+    scrollbar-color: #dddddd #dddddd;
+    scrollbar-width: thin;
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+}
+html::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+html::-webkit-scrollbar-track-piece  {
+    background-color: #dddddd;
+}
+html::-webkit-scrollbar-thumb:vertical {
+    height: 30px;
+    border-radius: 4px;
+    background:#dddddd;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+body {
+    background: var(--lightDeepColor-2);
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+} 
+h6{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cardbg {
+  background-color: #5EE8A5;
+}
+
+.contact-bg{
+  background-color: #E2F6EA;
+}
+.hero-bg{
+    background: url("../images/hero-bg.svg");
+    background-size: cover;
+    min-height: 50vh;
+
+}
+.navbar {
+  background-color: transparent;
+  transition: background-color 0.3s ease, padding 0.3s ease;
+  padding: 1rem 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1030;
+}
+
+.navbar.navbar-scrolled {
+  background-color: #9EA3AE; 
+  padding: 0.75rem 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.navbar.bg-gray {
+  background-color: #f8f9fa; 
+}
+
+.navbar .nav-link {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.navbar.navbar-scrolled .nav-link {
+  color: #fff;
+}
+
+.navbar .nav-link:hover {
+  color: #9EA3AE;
+}
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%; 
+  border: 3px solid #9EA3AE; 
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15); 
+}
