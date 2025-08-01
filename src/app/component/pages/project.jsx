@@ -7,15 +7,15 @@ const projects = [
   title: 'Ecommerce Website',
   description: 'A fully functional ecommerce website built using Next.js, Bootstrap, and integrated with Stripe for payments.',
   technologies: ['React.js', 'Bootstrap', 'Node.js', 'Express.js','MongoDB'],
-  github: 'https://github.com/yourusername/ecommerce-project',
-  live: 'https://your-ecommerce.vercel.app',
+  github: 'https://github.com/sajedur22/-mernEcommerce',
+  live: 'https://ecommerce-uq07.onrender.com/',
 },
   {
     title: "Portfolio Website",
     description: "A modern portfolio built using Next.js, showcasing my skills and projects.",
     technologies: ["Next.js", "Bootstrap", "Framer Motion"],
-    github: "https://github.com/yourusername/portfolio",
-    live: "https://yourdomain.vercel.app",
+    github: "https://github.com/sajedur22/Portfolio",
+    live: "https://https://shakil-xi.vercel.app/",
   },
   {
     title: "ToDo App",
@@ -30,6 +30,13 @@ const projects = [
     technologies: ["React", "Node.js", "Express.js", "MongoDB"],
     github: "https://github.com/sajedur22/Blogapp",
     live: "https://subtle-lamington-4c3ac6.netlify.app/",
+  },
+   {
+    title: "Coming soon....",
+    description: "",
+    technologies: ['coming soon...'],
+    github: "",
+    live: "",
   },
 ];
 
