@@ -5,7 +5,7 @@ import React from 'react';
 const projects = [
   {
   title: 'Ecommerce Website',
-  description: 'A fully functional ecommerce website built using Next.js, Bootstrap, and integrated with Stripe for payments.',
+  description: 'A fully functional ecommerce website built using React.js,Node.js,Express.js,Bootstrap, and integrated with Stripe for payments.',
   technologies: ['React.js', 'Bootstrap', 'Node.js', 'Express.js','MongoDB'],
   github: 'https://github.com/sajedur22/-mernEcommerce',
   live: 'https://ecommerce-uq07.onrender.com/',
@@ -13,14 +13,14 @@ const projects = [
   {
     title: "Portfolio Website",
     description: "A modern portfolio built using Next.js, showcasing my skills and projects.",
-    technologies: ["Next.js", "Bootstrap", "Framer Motion"],
+    technologies: ["Next.js", "Bootstrap", "Framer Motion","nodemailer"],
     github: "https://github.com/sajedur22/Portfolio",
     live: "https://https://shakil-xi.vercel.app/",
   },
   {
     title: "ToDo App",
-    description: "A full-featured todo app with user auth and CRUD functionalities.",
-    technologies: ["React", "Redux", "MongoDB", "Node.js"],
+    description: "A full-featured todo app ",
+    technologies: ["React", "Redux", "nodemailer"],
     github: "https://github.com/sajedur22/ToDoApp",
     live: "https://todo-ejeg.onrender.com",
   },
