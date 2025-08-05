@@ -10,6 +10,13 @@ const projects = [
   github: 'https://github.com/sajedur22/-mernEcommerce',
   live: 'https://ecommerce-uq07.onrender.com/',
 },
+{
+  title: 'Business Table',
+  description: 'A fully functional Business Table project using  React.js,Node.js,Express.js,Bootstrap',
+  technologies: ['React.js', 'Bootstrap', 'Node.js', 'Express.js','MongoDB'],
+  github: 'https://github.com/sajedur22/BusinessTable',
+  live: 'https://businesstable-1.onrender.com/',
+},
   {
     title: "Portfolio Website",
     description: "A modern portfolio built using Next.js, showcasing my skills and projects.",
